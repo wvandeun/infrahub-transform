@@ -12,5 +12,6 @@ class DeviceConfigTransform(InfrahubTransform):
 
         return {
             "device_hostname": device_name,
-            "device_description": f"*{device_description}*"
+            "device_description": f"*{device_description}*",
+            "new_key": "new_valye"
         }
