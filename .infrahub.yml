@@ -1,4 +1,7 @@
 ---
+schemas:
+  - ./schema.yml
+
 python_transforms:
   - name: device_config_transform
     class_name: DeviceConfigTransform
