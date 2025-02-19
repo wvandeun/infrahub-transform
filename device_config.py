@@ -3,7 +3,7 @@ from infrahub_sdk.transforms import InfrahubTransform
 
 class DeviceConfigTransform(InfrahubTransform):
 
-    query = "device_config"
+    query = "device_config_query"
 
     async def transform(self, data):
         device = data["NetworkDevice"]["edges"][0]["node"]
