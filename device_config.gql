@@ -1,0 +1,14 @@
+query DeviceQuery($name: String!) {
+  NetworkDevice(name__value: $name) {
+    edges {
+      node {
+        name {
+          value
+        }
+        description {
+          value
+        }
+      }
+    }
+  }
+}

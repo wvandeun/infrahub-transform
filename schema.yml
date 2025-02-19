@@ -1,0 +1,17 @@
+---
+version: "1.0"
+nodes:
+  - name: Device
+    namespace: Network
+    display_labels:
+      - name__value
+    attributes:
+      - name: name
+        kind: Text
+        label: Name
+        optional: false
+        unique: true
+      - name: description
+        kind: Text
+        label: Description
+        optional: true
